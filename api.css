@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#lista ul li img, #postIntegra img {
+    width: 200px;
+    float: left;
+    border: 2px solid #e8e8e8;
+    margin-right: 20px;
+}
+
+#lista li {
+    margin-bottom: 20px;
+}
+
+#postIntegra {
+    background: #f8f8f8;
+    padding: 30px;
+    display: none;
+}
+
+#postIntegra img {
+    width: 400px;
+    float: left;
+    border: 5px solid #e8e8e8;
+    margin-right: 30px;
+}
